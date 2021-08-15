@@ -50,6 +50,8 @@ ax1.plot(phi_range, l_star_phi[:, 2]*1e6, linestyle=':', label='Sticky Hard Sphe
 ax1.plot(phi_range, l_star_phi[:, 3]*1e6, linestyle='-.', label='1.2$a_p$ Excluded Annulus', linewidth=2, c=c[3])
 ax1.plot(silica_data[0, :], silica_data[1, :]*1e6, 'k.', label='Silica Data', markersize=10)
 ax1.legend()
-ax1.set(xlabel=r'$\phi$', ylabel='l* [µm]')
+ax1.set(xlabel=r'$\phi$', ylabel='l* [µm]',
+        title=r'$n_p$ = %.3f, $n_s$ = %.3f, $a_p$ = %i nm, $\lambda$ = %i nm'
+              % (n_p, n_s, a_p*1e9, lambda_vac*1e9))
 
 plt.show()

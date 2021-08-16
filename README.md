@@ -22,7 +22,7 @@ theta, i1, i2, l_star, stats = mie_scattering(n_p, n_s, a_p, lambda_vac, phi)
 
 Plotting i1 and i2 versus theta generated the polar plots seen above.
 
-To specify the structure factor, the argument "struct" can be used. Currently implimented is a Percus-Yevick hard sphere structure factor ('PY'), a hard sphere with an excluded annulus ('PYAnnulus'), and a sticky hard sphere model with a square potential well ('SHS'). For some models, additional parameters must be specified using the "optional_params" arguement. Examples of each are seen below along with an plot of example parameters. See the documentation of scattering.py for more details and citations.
+To specify the structure factor, the argument "struct" can be used. Currently implimented is a Percus-Yevick hard sphere structure factor ('PY'), a hard sphere with an excluded annulus ('PYAnnulus'), and a sticky hard sphere model with a square potential well ('SHS'). For some models, additional parameters must be specified using the "optional_params" arguement. Examples of each are seen below along with an plot of example parameters. See the documentation of scattering.py for parameter details and citations.
 
 ```python
 _, _, _, _, [q, _, s_q, _, _, _, _, _] = mie_scattering(n_p, n_s, a_p, lambda_vac, phi, struct='PY')

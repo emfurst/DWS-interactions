@@ -31,3 +31,5 @@ _, _, _, _, [q, _, s_q, _, _, _, _, _] = mie_scattering(n_p, n_s, a_p, lambda_va
 ```
 
 <img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/S(q)%20Models.png" width="45%">
+
+Another great resourse and similar code can be found here: https://miepython.readthedocs.io/en/latest/index.html

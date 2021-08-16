@@ -32,7 +32,7 @@ _, _, _, _, [q, _, s_q, _, _, _, _, _] = mie_scattering(n_p, n_s, a_p, lambda_va
 
 <img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/S(q)%20Models.png" width="45%">
 
-The code is sufficiently optimized so that 100+ calls to mie/rayleigh_scattering can occur in under a second. See mie_vs_rayleigh_l_star for an example of such, the results of which are shown below.
+The code is sufficiently optimized so that 100+ calls to mie/rayleigh_scattering can occur in under a second. See mie_vs_rayleigh_l_star.py for an example of such, the results of which are shown below.
 
 <img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/Mie%20vs%20Rayleigh%20l_star.png" width="90%">
 

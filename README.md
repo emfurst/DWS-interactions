@@ -1,11 +1,12 @@
 # Scattering
-Function package for generating theoretical light scattering models. Composed during the 2021 CHARM REU Program for the Furst Group.
+Function package for generating light transport properties in multiple scattering media
+Nicholas Sbalbi, Qi Li, and Eric M. Furst
 
 <img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/Intensity%20Plot.png" width="60%">
 
 ## Usage
 
-The functions mie_scattering and rayleigh_scattering calculate theoretical light scattering properties, including scattering intensities and photon mean-free path. Inputs are the system parameters (particle and medium refractive indeces, particle radii, incident light wavelength) along with the desired structure factor model (default S(q)=1). See the documentation within scattering.py for further detail. Examples are given below and example scripts can be found in the "Examples" folder.
+The functions mie_scattering and rayleigh_scattering calculate light scattering properties for scatterers, including scattering intensities and photon mean-free path. The input parameters are the particle and medium refractive indeces, particle radii, and incident light wavelength along with the desired structure factor model. The default is to assume non-interacting particles by setting the structure factor S(q)=1. See the documentation within scattering.py for further details. Examples are given below and example scripts can be found in the "Examples" folder.
 
 ## Examples
 
@@ -41,3 +42,7 @@ The code is sufficiently optimized so that 100+ calls to mie/rayleigh_scattering
 Other great resources for scattering calculations can be found here: 
 * https://miepython.readthedocs.io/en/latest/index.html
 * https://omlc.org/calc/mie_calc.html
+
+## Acknoledgments
+
+This work package was primarily supported by NSF through the University of Delaware Materials Research Science and Engineering Center DMR-2011824. Additional financial support was received from the Chemours Company, Wilmington, DE. 

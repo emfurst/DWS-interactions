@@ -43,6 +43,10 @@ Other great resources for scattering calculations can be found here:
 * https://miepython.readthedocs.io/en/latest/index.html
 * https://omlc.org/calc/mie_calc.html
 
+## License
+
+[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
 ## Acknoledgments
 
 This work package was primarily supported by NSF through the University of Delaware Materials Research Science and Engineering Center DMR-2011824. Additional financial support was received from the Chemours Company, Wilmington, DE. 

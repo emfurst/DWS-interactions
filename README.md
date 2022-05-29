@@ -1,5 +1,5 @@
-# Scattering
-Function package for generating light transport properties in multiple scattering media
+# DWS
+Function package for generating light transport properties in multiple scattering media  
 Nicholas Sbalbi, Qi Li, and Eric M. Furst
 
 <img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/Intensity%20Plot.png" width="60%">

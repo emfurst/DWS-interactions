@@ -49,4 +49,4 @@ Other great resources for scattering calculations can be found here:
 
 ## Acknoledgments
 
-This work package was primarily supported by NSF through the University of Delaware Materials Research Science and Engineering Center DMR-2011824. Additional financial support was received from the Chemours Company, Wilmington, DE. 
+The development of this code was primarily supported by NSF through the University of Delaware Materials Research Science and Engineering Center DMR-2011824. Additional financial support was received from the Chemours Company, Wilmington, DE. 

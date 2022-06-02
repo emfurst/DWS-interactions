@@ -8,7 +8,7 @@ University of Delaware Department of Chemical and Biomolecular Engineering. Last
 import numpy as np
 import scipy.special as sps
 import sys
-from scattering_test import *
+#from scattering_test import *
 
 
 def mie_pi_tau(theta, alpha):

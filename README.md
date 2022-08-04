@@ -2,7 +2,7 @@
 Function package for generating light transport properties in multiple scattering media  
 Nicholas Sbalbi, Qi Li, and Eric M. Furst
 
-<img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/Intensity%20Plot.png" width="60%">
+<img src="https://github.com/emfurst/DWS-interactions/blob/main/Examples/Results/Intensity%20Plot.png" width="60%">
 
 ## Usage
 
@@ -31,15 +31,15 @@ _, _, _, _, [q, _, s_q, _, _, _, _, _] = mie_scattering(n_p, n_s, a_p, lambda_va
 ...  = mie_scattering(n_p, n_s, a_p, lambda_vac, phi, sruct='SHS', optional_params=[0.2, 0.05])
 ```
 
-<img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/S(q)%20Models.png" width="45%">
+<img src="https://github.com/emfurst/DWS-interactions/blob/main/Examples/Results/S(q)%20Models.png" width="45%">
 
-The code is sufficiently optimized so that 100+ calls to mie/rayleigh_scattering can occur in under a second. See mie_vs_rayleigh_l_star.py for an example of such, the results of which are shown below.
+The code is sufficiently optimized so that 100+ calls to mie/rayleigh_scattering can occur in under a second. See mie_vs_rayleigh_l_star.py for an example; the results are shown below.
 
-<img src="https://github.com/nsbalbi/Scattering/blob/main/Examples/Results/Mie%20vs%20Rayleigh%20l_star.png" width="90%">
+<img src="https://github.com/emfurst/DWS-interactions/blob/main/Examples/Results/Mie%20vs%20Rayleigh%20l_star.png" width="90%">
 
 ## Other Resources
 
-Other great resources for scattering calculations can be found here: 
+Other resources for scattering calculations can be found here: 
 * https://miepython.readthedocs.io/en/latest/index.html
 * https://omlc.org/calc/mie_calc.html
 

@@ -6,7 +6,7 @@ Nicholas Sbalbi, Qi Li, and Eric M. Furst
 
 ## Usage
 
-The functions mie_scattering and rayleigh_scattering calculate light scattering properties for scatterers, including scattering intensities and photon mean-free path. The input parameters are the particle and medium refractive indeces, particle radii, and incident light wavelength along with the desired structure factor model. The default is to assume non-interacting particles by setting the structure factor S(q)=1. See the documentation within scattering.py for further details. Examples are given below and example scripts can be found in the "Examples" folder.
+The functions `mie_scattering` and `rayleigh_scattering` calculate light scattering properties for scatterers, including scattering intensities and photon mean-free path. The input parameters are the particle and medium refractive indices, particle radius, and incident light wavelength, along with the desired structure factor model. The default is to assume non-interacting particles by setting the structure factor S(q)=1. See the documentation within `scattering.py` for further details. Examples are given below and example scripts can be found in the `Examples` folder.
 
 ## Examples
 

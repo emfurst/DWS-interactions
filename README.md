@@ -1,6 +1,6 @@
 # DWS
 Function package for generating light transport properties in multiple scattering media  
-Nicholas Sbalbi, Qi Li, and Eric M. Furst
+By Nicholas Sbalbi
 
 <img src="https://github.com/emfurst/DWS-interactions/blob/main/Examples/Results/Intensity%20Plot.png" width="60%">
 

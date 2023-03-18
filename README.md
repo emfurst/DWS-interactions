@@ -2,6 +2,9 @@
 Function package for generating light transport properties in multiple scattering media  
 By Nicholas Sbalbi
 
+Please refer to our publication:
+* Nicholas Sbalbi, Qi Li, and Eric M. Furst, “Effect of scatterer interactions on photon transport in diffusing wave spectroscopy,” Phys. Rev. E, 106, 064609 (2022). DOI: https://www.doi.org/10.1103/PhysRevE.106.064609
+
 <img src="https://github.com/emfurst/DWS-interactions/blob/main/Examples/Results/Intensity%20Plot.png" width="60%">
 
 ## Usage
@@ -47,6 +50,8 @@ Other resources for scattering calculations can be found here:
 
 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
-## Acknoledgments
+## Acknowledgments
 
 The development of this code was primarily supported by NSF through the University of Delaware Materials Research Science and Engineering Center DMR-2011824. Additional financial support was received from the Chemours Company, Wilmington, DE. 
+
+
